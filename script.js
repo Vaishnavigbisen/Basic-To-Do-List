@@ -201,3 +201,5 @@ const addChore = (input) => {
 let chores = storage('get', 'chores') ? storage('get', 'chores') : []
 
 renderList(chores, filter)
+
+
